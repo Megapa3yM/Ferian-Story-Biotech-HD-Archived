@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>【1.5】Ferian Story - Biotech HD</name>
+  <author>Megapa3yM</author>
+  <modDependencies>
+	<li>
+		<packageId>Ludeon.RimWorld.Biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+	<li>
+	<packageId>mg.ferianstory.lansy.fork</packageId>
+	<displayName>???</displayName>
+	</li>
+	<li>
+	<packageId>bichang.ferianrace.biotech</packageId>
+	<displayName>Ferian Race - Biotech</displayName>
+	</li>
+  </modDependencies>
+  <supportedVersions>
+    <li>1.4</li>
+	<li>1.5</li>
+  </supportedVersions>
+  <packageId>mg.ferianhd.story</packageId>
+  <description>
+  Changes ferians (and only ferians) textures from 256x (or even lower resolution) to 512x. Made for self use. Probably may work standalone without Ferian Story; haven't tested to be honest.
+</description>
+  <loadAfter>
+    <li>bichang.ferianrace.biotech</li>  <!-- я （тут было "не") уверен насчет этих строк -->
+    <li>Ludeon.RimWorld.Biotech</li> 
+	<li>mg.ferianstory.lansy.fork</li>
+	<li>mg.ferianstory.main.fork.biotech</li>
+  </loadAfter>
+</ModMetaData>
